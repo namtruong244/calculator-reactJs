@@ -22,31 +22,11 @@
     block-size: 70px;
     margin: 0.25rem;
     border-radius: 40px;
+    user-select: none;
 }
-
-/*.calculator__key:active{*/
-/*    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3) inset;*/
-/*    outline: none;*/
-/*}*/
 
 .calculator__key:hover {
     cursor: pointer;
-}
-
-/* Ripple effect */
-.ripple {
-    position: absolute;
-    border-radius: 50%;
-    transform: scale(0);
-    animation: ripple 600ms linear;
-    background-color: rgba(194, 194, 194, 0.7);
-}
-
-@keyframes ripple {
-    to {
-        transform: scale(4);
-        opacity: 0;
-    }
 }
 
 .calculator__key--operator {

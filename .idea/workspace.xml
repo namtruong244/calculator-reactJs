@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e966e86a-4d8c-467f-a549-241d2955c3f3" name="Changes" comment="" />
+    <list default="true" id="e966e86a-4d8c-467f-a549-241d2955c3f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/@types/ICalculate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/cmnConst.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calculator/key/KeyPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ripple/Ripple.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ripple/Ripple.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/calculate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/isNumber.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/operate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calculator/key/Key.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calculator/key/Key.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calculator/key/Key.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calculator/key/Key.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calculator/key/KeyButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calculator/output/Output.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calculator/output/Output.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calculator/wrapper/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calculator/wrapper/Wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,20 +32,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/my-app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="270TvKqagMy6D2NIaPAeEcqF0g1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +60,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -72,6 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1648456232942</updated>
       <workItem from="1648456234131" duration="11254000" />
+      <workItem from="1648538940413" duration="7697000" />
+      <workItem from="1648607955231" duration="7764000" />
     </task>
     <servers />
   </component>
@@ -88,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
