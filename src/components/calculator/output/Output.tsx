@@ -7,7 +7,7 @@ type OutputProps = {
 function Output(props: OutputProps) {
     return (
         <div className={styles.calculator__output}>
-            {props.result || 0}
+            {props.result}
         </div>
     )
 }

@@ -4,11 +4,12 @@ import KeyPanel from "../key/KeyPanel";
 import {useState} from "react";
 import {ICalculate} from "../../../@types/ICalculate";
 import {calculate} from "../../../logic";
+import {CmnConst} from "../../../common";
 
 const initialCalculate: ICalculate = {
     total: null,
     next: null,
-    operator: null
+    operation: null
 }
 
 function Wrapper() {
@@ -20,7 +21,7 @@ function Wrapper() {
 
     return (
         <div className={styles.calculator}>
-            <Output result={calculateState.total}/>
+            <Output result={calculateState.next || calculateState.total || CmnConst.ZERO}/>
             <KeyPanel onClick={clickButtonHandler}/>
         </div>
     )
